@@ -21,3 +21,8 @@ npm run build
 ```
 npm run lint
 ```
+
+## prettier fix files
+```
+npm run fix
+```

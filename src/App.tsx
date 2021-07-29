@@ -15,9 +15,7 @@ const App = () => {
             {`count is: ${count}`}
           </button>
         </p>
-        <p>
-          Edit *.tsx files and save to test HMR updates.
-        </p>
+        <p>Edit *.tsx files and save to test HMR updates.</p>
         <p>
           <a
             className="App-link"
