@@ -21,7 +21,11 @@
     ],
     "rules": {
         // note you must disable the base rule as it can report incorrect errors
-        "no-use-before-define": "off", // ругань на подключение Реакта
-        "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }]
+        "no-use-before-define": "off", // подключение Реакта
+        "import/no-unresolved": "off", // импорт компонентов
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+        "import/extensions": [1, { // импорт без расширений
+            ".tsx": "never"
+        }]
     }
 }
