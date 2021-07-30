@@ -17,12 +17,17 @@ npm run build
 ```
 сборка в папке dist
 
-## eslint check
+## run Eslint check
 ```
 npm run lint
 ```
 
-## prettier fix files
+## run Prettier fix files
 ```
 npm run fix
+```
+
+## run Jest test(s)
+```
+npm run test
 ```
