@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
@@ -8,12 +7,16 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React + ESLint (Airbnb)!</p>
+        <p className="title">Hello Vite + React + TS + ESLint (Airbnb)!</p>
         <p>
-          <button type="button" onClick={() => setCount((prev) => prev + 1)}>
-            {`count is: ${count}`}
+          <button type="button" onClick={() => setCount((prevCount) => prevCount + 1)}>
+            Add 1 to counter
           </button>
+        </p>
+        <p>
+          Counter value is:
+          {' '}
+          {count}
         </p>
         <p>Edit *.tsx files and save to test HMR updates.</p>
         <p>
